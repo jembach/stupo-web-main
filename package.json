@@ -1,8 +1,8 @@
 {
-  "name": "template-web",
+  "name": "stupo-web-main",
   "version": "0.0.0",
-  "description": "",
-  "repository": "git@github.com:jembach/template-web",
+  "description": "contains the open source media education platform stupo",
+  "repository": "git@github.com:jembach/stupo-web-main",
   "author": "Jonas Embach <j.embach@bit-production.com>",
   "license": "MIT",
   "private": true,
@@ -73,5 +73,7 @@
     "tailwindcss": "^2.0.2",
     "ts-jest": "^26.4.4",
     "typescript": "^4.1.3"
-  }
+  },
+  "homepage": "https://github.com/jembach/stupo-web-main",
+  "bugs": "https://github.com/jembach/stupo-web-main/issues"
 }
