@@ -17,14 +17,12 @@
     "test:cov": "jest --coverage"
   },
   "engines": {
-    "node": "14.x",
+    "node": "12.x",
     "yarn": "1.x"
   },
   "dependencies": {
     "@next/bundle-analyzer": "^10.0.3",
     "@prefresh/next": "^1.4.4",
-    "@sentry/browser": "^5.29.2",
-    "@sentry/node": "^5.29.2",
     "@zeit/next-source-maps": "^0.0.3",
     "next": "^10.0.4",
     "next-plugin-preact": "^3.0.3",
@@ -36,7 +34,6 @@
     "tslib": "^2.0.3"
   },
   "devDependencies": {
-    "@eclass/semantic-release-sentry-releases": "^2.8.0",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/exec": "^5.0.0",
     "@semantic-release/git": "^9.0.0",
