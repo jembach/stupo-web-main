@@ -3,11 +3,8 @@ import type { AppProps } from 'next/app';
 import Head from 'next/head';
 
 import { Page } from '../types';
-import sentryInit from '../lib/sentry';
 
 import '../styles/index.css';
-
-sentryInit();
 
 function MyApp({
   Component,
