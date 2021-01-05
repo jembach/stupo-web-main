@@ -1,0 +1,37 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2020,
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["@typescript-eslint", "prettier", "jest", "promise", "unicorn"],
+  "extends": [
+    "airbnb-typescript",
+    "airbnb/hooks",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:jest/recommended",
+    "plugin:promise/recommended",
+    "plugin:unicorn/recommended",
+    "prettier",
+    "prettier/react",
+    "prettier/@typescript-eslint"
+  ],
+  "rules": {
+    "unicorn/prevent-abbreviations": "off",
+    "linebreak-style": ["error", "unix"],
+    "no-console": "error",
+    "no-empty": ["error", { "allowEmptyCatch": true }],
+    "react/prop-types": "off",
+    "unicorn/filename-case": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "error",
+    "unicorn/consistent-function-scoping": "off",
+    "react/require-default-props": "off"
+  }
+}
