@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 
+import styles from './navigation.module.css';
+
 const NavigationButton = React.memo(
   ({
     title,
@@ -14,13 +16,7 @@ const NavigationButton = React.memo(
     className?: string;
   }) => (
     <Link href={href}>
-      <a
-        href={href}
-        title={title}
-        className={`text-lg inline-block px-4 py-2 first:pl-0 last:pr-0 font-light hover:underline ${
-          className || ''
-        }`}
-      >
+      <a href={href} title={title} className={`${className || ''} ${styles.link}`}>
         {children || title}
       </a>
     </Link>
@@ -30,11 +26,7 @@ const NavigationButton = React.memo(
 const NavigationButtonMobile = React.memo(
   ({ title, href, theme }: { title: string; href: string; theme: string }) => (
     <Link href={href}>
-      <a
-        href={href}
-        title={title}
-        className={`text-lg inline-block px-8 py-4 hover:text-white hover:bg-${theme}-400 font-medium `}
-      >
+      <a href={href} title={title} className={styles[`link-mobile-${theme}`]}>
         {title}
       </a>
     </Link>
@@ -61,19 +53,15 @@ function Navigation({ theme }: { theme: string }): JSX.Element {
   }
 
   return (
-    <nav className="w-full overflow-hidden">
-      <div className="hidden md:flex mx-auto container justify-between items-center top-0 py-2">
+    <nav className={styles.navigation}>
+      <div className={styles['navigation-desktop']}>
         <div className="text-left">
           <NavigationButton href="/compass" title="Kompass" />
           <NavigationButton href="/quiz" title="Quiz" />
           <NavigationButton href="/blog" title="Blog" />
           <NavigationButton href="/tools" title="Tools" />
         </div>
-        <NavigationButton
-          href="/"
-          title="Stupo"
-          className="font-bold uppercase text-2xl tracking-widest"
-        />
+        <NavigationButton href="/" title="Stupo" className={styles['link-stupo']} />
         <div className="text-right">
           <NavigationButton href="/pupils" title="Für Schüler" />
           <NavigationButton href="/teachers" title="Für Lehrer" />
@@ -82,7 +70,7 @@ function Navigation({ theme }: { theme: string }): JSX.Element {
           </NavigationButton>
         </div>
       </div>
-      <div className="flex md:hidden mx-auto container justify-between items-center top-0 py-2">
+      <div className={styles['navigation-mobile']}>
         <button type="button">
           <svg
             role="img"
@@ -99,9 +87,9 @@ function Navigation({ theme }: { theme: string }): JSX.Element {
           <GithubIcon />
         </NavigationButton>
       </div>
-      <div className={`absolute ${menuOpen ? 'block' : 'hidden'} md:hidden w-screen`}>
-        <div className="container mx-auto">
-          <div className="flex flex-col bg-white rounded-xl shadow-xl overflow-hidden">
+      <div className={`${styles['container-mobile']} ${menuOpen ? 'block' : 'hidden'}`}>
+        <div className={styles['container-mobile-wrapper']}>
+          <div className={styles['container-mobile-content']}>
             <NavigationButtonMobile href="/compass" title="Kompass" theme={theme} />
             <NavigationButtonMobile href="/quiz" title="Quiz" theme={theme} />
             <NavigationButtonMobile href="/blog" title="Blog" theme={theme} />
