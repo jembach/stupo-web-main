@@ -6,7 +6,7 @@ import { Page } from '../types';
 
 const Blog: Page<any> = () => (
   <div>
-    <Header className="bg-stupo-blog-200" img="/images/headers/blog.svg" alt="">
+    <Header theme="stupo-blog" img="/images/headers/blog.svg" alt="">
       <HeaderTitle>
         <span>
           Cookies, Tracker, Verschlüsselung -

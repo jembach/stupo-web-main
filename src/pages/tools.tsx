@@ -6,7 +6,7 @@ import { Page } from '../types';
 
 const Tools: Page<any> = () => (
   <div>
-    <Header className="bg-stupo-tools-200" img="/images/headers/tools.svg" alt="">
+    <Header theme="stupo-tools" img="/images/headers/tools.svg" alt="">
       <HeaderTitle>
         <span>
           Was passiert wenn ich?

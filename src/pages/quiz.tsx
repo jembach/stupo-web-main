@@ -7,7 +7,7 @@ import { Page } from '../types';
 
 const Quiz: Page<any> = () => (
   <div>
-    <Header className="bg-stupo-quiz-200" img="/images/headers/quiz.svg" alt="">
+    <Header theme="stupo-quiz" img="/images/headers/quiz.svg" alt="">
       <HeaderTitle>
         <span>
           Du Weist alles - <br />
