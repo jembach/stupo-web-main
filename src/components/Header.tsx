@@ -20,7 +20,14 @@ function Header({
       <div className={styles.content}>
         <div className={styles.title}>{children}</div>
         <div className={styles['image-wrapper']}>
-          <img src={img} alt={alt} className={styles.image} style={{ maxHeight: 450 }} />
+          <img
+            src={img}
+            alt={alt}
+            className={styles.image}
+            style={{ maxHeight: 450 }}
+            height="720"
+            width="850"
+          />
         </div>
       </div>
     </div>
