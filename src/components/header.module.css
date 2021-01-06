@@ -50,11 +50,13 @@
 
 .image-wrapper {
   @apply flex;
-  @apply w-1/4;
+  @apply w-1/3;
   @apply md:w-1/2;
   @apply items-end;
+  @apply justify-center;
 }
 
 .image {
   @apply w-full;
+  max-width: 450px;
 }
