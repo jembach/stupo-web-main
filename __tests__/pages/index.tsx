@@ -4,6 +4,6 @@ import Home from '../../src/pages';
 
 test('renders deploy link', () => {
   const { getByText } = render(<Home />);
-  const content = getByText(/Welcome to this template/);
+  const content = getByText(/Die Platform/);
   expect(content).toBeTruthy();
 });
