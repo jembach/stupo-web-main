@@ -6,7 +6,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="de">
         <Head>
-          <meta name="theme-color" content="YOUR_THEME_COLOR" />
+          <meta name="theme-color" content="#4F46E5" />
         </Head>
         <body>
           <Main />
