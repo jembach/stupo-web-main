@@ -1,0 +1,60 @@
+.header-main {
+  @apply w-screen;
+}
+
+.header-stupo-main {
+  @apply header-main;
+  @apply bg-stupo-main-200;
+}
+.header-stupo-compass {
+  @apply header-main;
+  @apply bg-stupo-compass-200;
+}
+.header-stupo-quiz {
+  @apply header-main;
+  @apply bg-stupo-quiz-200;
+}
+.header-stupo-blog {
+  @apply header-main;
+  @apply bg-stupo-blog-200;
+}
+.header-stupo-tools {
+  @apply header-main;
+  @apply bg-stupo-tools-200;
+}
+.header-stupo-pupil {
+  @apply header-main;
+  @apply bg-stupo-pupil-200;
+}
+.header-stupo-teacher {
+  @apply header-main;
+  @apply bg-stupo-teacher-200;
+}
+
+.content {
+  @apply flex;
+  @apply justify-between;
+  @apply container;
+  @apply mx-auto;
+  @apply pt-16;
+}
+
+.title {
+  @apply flex-1;
+  @apply flex;
+  @apply items-center;
+  @apply -mt-16;
+  @apply md:pr-8;
+  @apply pb-8;
+}
+
+.image-wrapper {
+  @apply flex;
+  @apply w-1/4;
+  @apply md:w-1/2;
+  @apply items-end;
+}
+
+.image {
+  @apply w-full;
+}
