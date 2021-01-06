@@ -6,7 +6,9 @@ function HeaderTitle({
   children: React.ReactElement | React.ReactElement[];
 }): JSX.Element {
   return (
-    <span className="text-5xl leading-normal font-bold uppercase tracking-wide">{children}</span>
+    <span className="text-4xl md:text-5xl leading-normal font-bold uppercase tracking-wide">
+      {children}
+    </span>
   );
 }
 
