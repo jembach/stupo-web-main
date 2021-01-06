@@ -6,7 +6,7 @@ import { Page } from '../types';
 
 const Pupils: Page<any> = () => (
   <div>
-    <Header className="bg-stupo-pupil-200" img="/images/headers/pupils.svg" alt="">
+    <Header theme="stupo-pupil" img="/images/headers/pupils.svg" alt="">
       <HeaderTitle>
         <span>Du willst noch mehr erfahren als</span>
         <span className="text-stupo-pupil-complement-600"> #Schüler</span>

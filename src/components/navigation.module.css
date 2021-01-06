@@ -1,0 +1,107 @@
+.link {
+  @apply text-lg;
+  @apply font-light;
+  @apply inline-block;
+  @apply px-4;
+  @apply py-2;
+  @apply first:pl-0;
+  @apply last:pr-0;
+  @apply hover:underline;
+}
+
+.link-mobile {
+  @apply text-lg;
+  @apply inline-block;
+  @apply px-8;
+  @apply py-4;
+  @apply hover:text-white;
+  @apply font-medium;
+}
+
+.link-stupo {
+  @apply font-bold;
+  @apply uppercase;
+  @apply text-2xl;
+  @apply tracking-widest;
+}
+
+.link-mobile-stupo-main {
+  @apply link-mobile;
+  @apply hover:bg-stupo-main-400;
+}
+
+.link-mobile-stupo-compass {
+  @apply link-mobile;
+  @apply hover:bg-stupo-compass-400;
+}
+
+.link-mobile-stupo-quiz {
+  @apply link-mobile;
+  @apply hover:bg-stupo-quiz-400;
+}
+
+.link-mobile-stupo-blog {
+  @apply link-mobile;
+  @apply hover:bg-stupo-blog-400;
+}
+
+.link-mobile-stupo-tools {
+  @apply link-mobile;
+  @apply hover:bg-stupo-tools-400;
+}
+
+.link-mobile-stupo-pupil {
+  @apply link-mobile;
+  @apply hover:bg-stupo-pupil-400;
+}
+
+.link-mobile-stupo-teacher {
+  @apply link-mobile;
+  @apply hover:bg-stupo-teacher-400;
+}
+
+nav.navigation {
+  @apply w-full;
+  @apply overflow-hidden;
+}
+
+.navigation-base {
+  @apply mx-auto;
+  @apply container;
+  @apply justify-between;
+  @apply items-center;
+  @apply top-0;
+  @apply py-2;
+}
+
+.navigation-desktop {
+  @apply hidden;
+  @apply md:flex;
+  @apply navigation-base;
+}
+
+.navigation-mobile {
+  @apply flex;
+  @apply md:hidden;
+  @apply navigation-base;
+}
+
+.container-mobile {
+  @apply absolute;
+  @apply md:hidden;
+  @apply w-screen;
+}
+
+.container-mobile-wrapper {
+  @apply container;
+  @apply mx-auto;
+}
+
+.container-mobile-content {
+  @apply flex;
+  @apply flex-col;
+  @apply bg-white;
+  @apply rounded-xl;
+  @apply shadow-xl;
+  @apply overflow-hidden;
+}

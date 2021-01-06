@@ -5,6 +5,9 @@ module.exports = {
   purge: ['./src/components/**/*.{js,ts,jsx,tsx}', './src/pages/**/*.{js,ts,jsx,tsx}'],
   darkMode: 'media',
   theme: {
+    container: {
+      padding: '1.5rem',
+    },
     colors: {
       white: '#fff',
       textColor: '#080539',

@@ -1,0 +1,8 @@
+.header-title {
+  @apply text-4xl;
+  @apply md:text-5xl;
+  @apply leading-normal;
+  @apply font-bold;
+  @apply uppercase;
+  @apply tracking-wide;
+}
