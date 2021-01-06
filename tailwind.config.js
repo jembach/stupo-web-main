@@ -6,7 +6,7 @@ module.exports = {
   darkMode: 'media',
   theme: {
     container: {
-      padding: { DEFAULT: '2rem', md: '1rem' },
+      padding: '1.5rem',
     },
     colors: {
       white: '#fff',
