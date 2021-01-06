@@ -14,6 +14,7 @@ const Quiz: Page<any> = () => (
           Prüfe deinen Wissensstand im
         </span>
         <span className="text-stupo-quiz-complement-400"> #Quiz</span>
+        <br />
         <Button className="bg-stupo-quiz-complement-400 text-white">Quiz beginnen</Button>
       </HeaderTitle>
     </Header>
