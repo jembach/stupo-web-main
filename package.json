@@ -24,6 +24,7 @@
     "@next/bundle-analyzer": "^10.0.3",
     "@prefresh/next": "^1.4.4",
     "@zeit/next-source-maps": "^0.0.3",
+    "dayjs": "^1.10.4",
     "next": "^10.0.4",
     "next-plugin-preact": "^3.0.3",
     "preact": "^10.5.7",
@@ -32,6 +33,7 @@
     "react-dom": "npm:@preact/compat@^0.0.3",
     "react-markdown": "^5.0.3",
     "react-ssr-prepass": "npm:preact-ssr-prepass@^1.1.2",
+    "rss-parser": "^3.10.0",
     "tslib": "^2.0.3"
   },
   "devDependencies": {
