@@ -96,10 +96,7 @@ Blog.description =
   'Im Bereich Blog findest du aktuelle News zu IT-Sicherheit, Wissenswertes, wie du dich schützen kannst und vieles mehr.';
 
 export const getStaticProps: GetStaticProps<{ feed: EnhanceRssFeedItem[] }> = async () => {
-  const feed = await loadFeed().catch((error) => {
-    console.log(error);
-    return [];
-  });
+  const feed = await loadFeed().catch(() => []);
   return { props: { feed }, revalidate: 60 * 60 }; // once per hour
 };
 

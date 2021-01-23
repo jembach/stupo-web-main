@@ -12,6 +12,7 @@ export default async function loadFeed(): Promise<EnhanceRssFeedItem[]> {
   const feeds = await Promise.all(feedUrls.map((feedUrl) => rssParser.parseURL(feedUrl)));
   const items = feeds
     .map((feed) =>
+      // eslint-disable-next-line unicorn/no-null
       feed.items.map((item) => ({ ...item, image: feed.image?.url || null, author: feed.title }))
     )
     .flat()
