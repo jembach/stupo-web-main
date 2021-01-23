@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1 {
+  @apply text-4xl;
+  @apply md:text-5xl;
+  @apply leading-normal;
+  @apply font-bold;
+  @apply uppercase;
+  @apply tracking-wide;
+}
+
+h2 {
+  @apply text-3xl;
+  @apply md:text-4xl;
+  @apply leading-normal;
+  @apply font-semibold;
+  @apply tracking-wide;
+  @apply mb-4;
+}
