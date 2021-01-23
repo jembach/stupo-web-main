@@ -1,3 +1,5 @@
+import type RssParser from 'rss-parser';
+
 export type Page<P = null> = {
   title: string;
   keywords: string;
@@ -5,3 +7,5 @@ export type Page<P = null> = {
   // eslint-disable-next-line no-undef
   (params: P): JSX.Element;
 };
+
+export type EnhanceRssFeedItem = RssParser.Item & { image?: string; author?: string };
