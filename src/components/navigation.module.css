@@ -90,6 +90,8 @@ nav.navigation {
   @apply absolute;
   @apply md:hidden;
   @apply w-screen;
+  @apply z-10;
+  @apply -mt-3;
 }
 
 .container-mobile-wrapper {
@@ -104,4 +106,6 @@ nav.navigation {
   @apply rounded-xl;
   @apply shadow-xl;
   @apply overflow-hidden;
+  @apply border;
+  @apply border-gray-200;
 }

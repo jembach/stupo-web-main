@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 
 import styles from './navigation.module.css';
+import headerStyles from './header.module.css';
+import useDropdown from '../hooks/useDropdown';
 
 const NavigationButton = React.memo(
   ({
@@ -46,14 +48,10 @@ const GithubIcon = () => (
 );
 
 function Navigation({ theme }: { theme: string }): JSX.Element {
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  function toggleMenuOpen() {
-    setMenuOpen(!menuOpen);
-  }
+  const { dropdownRef, setOpen, visible } = useDropdown<HTMLDivElement>();
 
   return (
-    <nav className={styles.navigation}>
+    <nav className={`${styles.navigation} ${headerStyles[`header-${theme}`]}`}>
       <div className={styles['navigation-desktop']}>
         <div className="text-left">
           <NavigationButton href="/compass" title="Kompass" />
@@ -77,7 +75,7 @@ function Navigation({ theme }: { theme: string }): JSX.Element {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             className="h-8 w-8"
-            onClick={toggleMenuOpen}
+            onClick={setOpen}
           >
             <title>Menu</title>
             <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
@@ -87,8 +85,8 @@ function Navigation({ theme }: { theme: string }): JSX.Element {
           <GithubIcon />
         </NavigationButton>
       </div>
-      <div className={`${styles['container-mobile']} ${menuOpen ? 'block' : 'hidden'}`}>
-        <div className={styles['container-mobile-wrapper']}>
+      <div className={`${styles['container-mobile']} ${visible ? 'block' : 'hidden'}`}>
+        <div className={styles['container-mobile-wrapper']} ref={dropdownRef}>
           <div className={styles['container-mobile-content']}>
             <NavigationButtonMobile href="/compass" title="Kompass" theme={theme} />
             <NavigationButtonMobile href="/quiz" title="Quiz" theme={theme} />
