@@ -8,6 +8,14 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 const nextConfig = withBundleAnalyzer(
   withPreact({
+    webpack(config) {
+      config.module.rules.push({
+        test: /\.md$/,
+        use: 'raw-loader',
+      });
+
+      return config;
+    },
     poweredByHeader: false,
   })
 );
