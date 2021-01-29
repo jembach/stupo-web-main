@@ -1,7 +1,7 @@
 ---
 title: 'Smart Home'
 date: '2021-01-29'
-category: 'Wissenswertes'
+category: 'Wissen'
 description: "Wir informieren dich über die Vorteile und Risiken von Smart Home."
 image: '/images/blog/pwd.jpg'
 ---
