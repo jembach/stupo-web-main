@@ -2,13 +2,11 @@
 title: 'Antivirenprogramm'
 date: '2021-01-29'
 category: 'Schutz'
-description: 'Wir zeigen den sinnvollen Umgang mit Antivirenprogrammen.'
+description: 'Wir zeigen dir den sinnvollen Umgang mit Antivirenprogrammen.'
 image: '/images/blog/laptop.jpg'
 ---
 
-**Wozu eigentlich ein Antivirenprogramm?**
-
-****
+### **Wozu eigentlich ein Antivirenprogramm?**
 
 Antivirenprogramme können teilweise ganz schön nervig sein. In ungünstigen Momenten erscheinen lästige Meldungen oder es wird teilweise ein benötigtes Programm blockiert.
 
@@ -22,4 +20,14 @@ Einen brauchbaren Virenschutz gibt es prinzipiell auch kostenlos. Beispielsweise
 
 Bei kommerziellen Antivirenprogrammen wählst du oft zwischen verschiedenen Paketen, welche dann unterschiedliche Funktionen und Preisabstufungen haben. Meistens kannst du sogar eine Testversion installieren, um dich mit der Anwendung vertraut zu machen und zu schauen, ob das Programm deinen Anforderungen entspricht.
 
-Doch welches Programm ist das Beste? Diese Frage ist schwer zu beantworten. Es kommt immer darauf an, welche von den Funktionen du haben möchtest und ob du bereit bist, dafür etwas Geld zu bezahlen. Jedes Jahr werden in unabhängigen Tests verschiedene Virenschutz-Programme getestet und verglichen, was dir bei deiner Entscheidung helfen kann. Schau zum Beispiel mal hier vorbei (Klick: https://www.bundespolizei-virus.de/virenschutz/).
+Doch welches Programm ist das Beste? Diese Frage ist schwer zu beantworten. Es kommt immer darauf an, welche von den Funktionen du haben möchtest und ob du bereit bist, dafür etwas Geld zu bezahlen. Jedes Jahr wird in unabhängigen Tests verschiedene Virenschutz-Programme getestet und verglichen, was dir bei deiner Entscheidung helfen kann. Schau zum Beispiel mal [hier](https://www.bundespolizei-virus.de/virenschutz/) vorbei.
+
+***
+
+**Quellen:**
+
+[https://www.bsi-fuer-buerger.de/BSIFB/DE/Empfehlungen/Schutzprogramme/Virenschutzprogramme/virenschutzprogramme_node.html](https://www.bsi-fuer-buerger.de/BSIFB/DE/Empfehlungen/Schutzprogramme/Virenschutzprogramme/virenschutzprogramme_node.html)
+
+[https://www.bundespolizei-virus.de/virenschutz/](https://www.bundespolizei-virus.de/virenschutz/)
+
+[https://www.softmaker.de/blog/bytes-und-mehr/antivirus-wozu-eigentlich#:~:text=Ohne%20ein%20Antivirenprogramm%20m%C3%BCssten%20Sie,%E2%80%9EMalware%E2%80%9C)%20%C3%A4hnlich%20vor](https://www.softmaker.de/blog/bytes-und-mehr/antivirus-wozu-eigentlich#:~:text=Ohne%20ein%20Antivirenprogramm%20m%C3%BCssten%20Sie,%E2%80%9EMalware%E2%80%9C)%20%C3%A4hnlich%20vor).
