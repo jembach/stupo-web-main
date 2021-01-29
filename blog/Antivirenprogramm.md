@@ -29,5 +29,3 @@ Doch welches Programm ist das Beste? Diese Frage ist schwer zu beantworten. Es k
 [https://www.bsi-fuer-buerger.de/BSIFB/DE/Empfehlungen/Schutzprogramme/Virenschutzprogramme/virenschutzprogramme_node.html](https://www.bsi-fuer-buerger.de/BSIFB/DE/Empfehlungen/Schutzprogramme/Virenschutzprogramme/virenschutzprogramme_node.html)
 
 [https://www.bundespolizei-virus.de/virenschutz/](https://www.bundespolizei-virus.de/virenschutz/)
-
-[https://www.softmaker.de/blog/bytes-und-mehr/antivirus-wozu-eigentlich#:~:text=Ohne%20ein%20Antivirenprogramm%20m%C3%BCssten%20Sie,%E2%80%9EMalware%E2%80%9C)%20%C3%A4hnlich%20vor](https://www.softmaker.de/blog/bytes-und-mehr/antivirus-wozu-eigentlich#:~:text=Ohne%20ein%20Antivirenprogramm%20m%C3%BCssten%20Sie,%E2%80%9EMalware%E2%80%9C)%20%C3%A4hnlich%20vor).
