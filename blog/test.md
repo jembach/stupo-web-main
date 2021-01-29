@@ -9,5 +9,6 @@ image: '/images/blog/laptop.jpg'
 - lol
 - lol
 - lol
+- lol
 
 We"re building an awesome Next.js blog using Markdown.
